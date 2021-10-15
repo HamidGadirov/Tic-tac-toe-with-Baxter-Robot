@@ -1,0 +1,17 @@
+Detect obstacles in the game area
+
+threshold
+
+1. next robot move();
+2. get initial image (after each move) to compare with each;
+3. (wait 10 s) 
+loop:
+{
+    each 1 s take a new picture;
+    //if num_of_occupied_cells++ && changes_on_new_picture_percentage<threshold:
+    if ( changes_on_new_picture_percentage > 1 && changes_on_new_picture_percentage < 10 ):
+    {
+         next robot move();
+	 goto 1.;
+    }
+}

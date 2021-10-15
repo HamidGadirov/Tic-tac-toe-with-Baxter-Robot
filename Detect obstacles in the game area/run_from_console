@@ -1,0 +1,15 @@
+Run c++ opencv code from console:
+
+pkg-config --cflags --libs opencv
+g++ -ggdb diff_in_perc.cpp -o diff_in_perc `pkg-config --cflags --libs opencv`
+./diff_in_perc
+
+ make -C ../../../robotics-course/rai/rai/Perception/
+
+// in 3d segmant that wrap depth values , median, image -> 3d, create virual obj,
+
+    // compute colision method for convex obj
+
+    // or check for collision and speciy in kinematics
+
+

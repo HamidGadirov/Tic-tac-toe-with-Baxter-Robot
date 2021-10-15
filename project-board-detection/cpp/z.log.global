@@ -1,0 +1,230 @@
+** compiled at:     May 20 2019 17:27:24
+** execution start: 1970-01-01_01:00:00.000000
+util.cpp:initCmdLine:678(1) ** cmd line arguments: './x.exe '
+graph.cpp:RegistryInitializer:1188(3) opening config file 'rai.cfg'
+graph.cpp:RegistryInitializer:1194(3)  - failed
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+util.tpp:getParameterBase:65(3)          rosNodeName = cameraRosNodeTicTacToe [N3rai6StringE] (default!)
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+../../rai/RosCom/roscom.h:SubscriberConv:198(0) subscribing to topic '/camera/rgb/image_rect_color' <N3rai5ArrayIhEE> into var '/camera/rgb/image_rect_color'
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+../../rai/RosCom/roscom.h:SubscriberConv:198(0) subscribing to topic '/camera/depth_registered/image_raw' <N3rai5ArrayIfEE> into var '/camera/depth_registered/image_raw'
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/cpp'
+
+util.cpp:cd_file:1117(3) entering path '/home/julian/git/project/rai/rai/Core/../../../rai-robotModels/baxter' from '/home/julian/git/project/cpp'
+
+util.cpp:getIs:1146(3) opening input file 'baxter.g'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'baxter_clean.g'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'torso' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'base_link_collision.STL'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'base' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'pedestal_link_collision.STL'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/cpp'
+
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+roscom.h:Subscriber:129(0) subscribing to topic '/robot/joint_states' <N11sensor_msgs11JointState_ISaIvEEE> into var '/robot/joint_states'
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+roscom.h:Subscriber:129(0) subscribing to topic '/robot/end_effector/right_gripper/state' <N16baxter_core_msgs17EndEffectorState_ISaIvEEE> into var '/robot/end_effector/right_gripper/state'
+util.tpp:getParameterBase:65(3)               useRos =     1 [b] (default!)
+roscom.h:Subscriber:129(0) subscribing to topic '/robot/end_effector/left_gripper/state' <N16baxter_core_msgs17EndEffectorState_ISaIvEEE> into var '/robot/end_effector/left_gripper/state'
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/cpp'
+
+util.cpp:cd_file:1117(3) entering path '../rai-robotModels/baxter' from '/home/julian/git/project/cpp'
+
+util.cpp:getIs:1146(3) opening input file 'baxter_new.g'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'baxter_clean2.g'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'torso' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'base_link.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'base' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'PEDESTAL.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'head' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'H0.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'head' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'H1.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'upper_shoulder' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'S0.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'upper_shoulder' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'S0.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'lower_shoulder' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'S1.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'lower_shoulder' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'S1.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'upper_elbow' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'E0.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'upper_elbow' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'E0.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'lower_elbow' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'E1.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'lower_elbow' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'E1.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'upper_forearm' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'W0.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'upper_forearm' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'W0.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'lower_forearm' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'W1.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'lower_forearm' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'W1.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'wrist' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'W2.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'wrist' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'W2.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'electric_gripper' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'electric_gripper_base.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'electric_gripper' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'electric_gripper_base.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'electric_gripper/fingers' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'extended_narrow.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'electric_gripper/fingers' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'extended_narrow.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'electric_gripper/fingers' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'extended_narrow.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'electric_gripper/fingers' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'extended_narrow.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'electric_gripper/fingers' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'half_round_tip.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'electric_gripper/fingers' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'half_round_tip.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'electric_gripper/fingers' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'paddle_tip.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:cd_file:1117(3) entering path 'electric_gripper/fingers' from '/home/julian/git/project/rai-robotModels/baxter'
+
+util.cpp:getIs:1146(3) opening input file 'paddle_tip.ply'
+
+util.cpp:cd_start:1109(3) entering path '/home/julian/git/project/cpp'
+
+geoms.cpp:createMeshes:104(-1) mesh needs to be loaded

@@ -1,0 +1,16 @@
+---
+# Use defaults from LLVM
+BasedOnStyle: LLVM
+IndentWidth: 4
+---
+# Configuration for C++
+Language: Cpp
+Standard: Cpp11
+
+AllowShortFunctionsOnASingleLine: Empty
+
+SortIncludes: false
+IncludeBlocks: Regroup
+
+KeepEmptyLinesAtTheStartOfBlocks: false
+...
